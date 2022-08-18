@@ -1,0 +1,136 @@
+
+
+/*
+
+blue-main: #5CB6EB
+blue-dark: #4884D4
+blue-light: #48BCD4
+dark-grey: #312f2f
+
+text main: #777
+text on black: #cccccc
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-weight: 400;
+    /* font-size: 62.5%; */
+    line-height: 1.7;
+    color: #777;
+}
+
+i {
+    margin: .5rem;
+}
+
+.button, .button:link, .button:visited {
+    background-color: #5CB6EB;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 4px 8px 4px 8px;
+    color: #0a0a0a;
+    border-radius: 3px;
+    margin: 3px 3px;
+    transition: background-color .2s;
+}
+
+.button:hover {
+    background-color: #4884D4;
+}
+
+.subheader {
+    padding: 0.5rem 0;
+    height: 5rem;
+    background-color: #312f2f;
+    position: fixed;
+    min-width: 100%;
+    margin-top: -5rem;
+}
+
+.subheader .container {
+    font-size: 1.6rem;
+    color: #cccccc;
+}
+
+.container__subheader {
+    height: 100%;
+}
+
+.col-text-center {
+    text-align: center;
+}
+
+.col-text-center a, .col-text-center a:link, .col-text-center a:visited {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.col-text-left {
+    text-align: end;
+}
+
+.menu {
+    margin-top: 5rem;
+    height: 10rem;
+    background-color: #0a0a0a;
+}
+
+.menu .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu img {
+    height: 9rem;
+    width: 17.5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-right: auto;
+}
+
+.menu-list {
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: block;
+    color: #ccc;
+    font-size: 2.5rem;
+    margin-left: auto;
+}
+
+.menu ul li {
+    display: inline-block;
+    height: 100%;
+    transition: all .2s;
+    text-align: center;
+}
+
+.menu ul li:hover {
+    background-color: #5CB6EB;
+    color: black;
+}
+
+.menu-item a, .menu-item a:link, .menu-item a:visited {
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
