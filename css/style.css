@@ -2,9 +2,9 @@
 
 /*
 
-blue-main: #5CB6EB
-blue-dark: #4884D4
-blue-light: #48BCD4
+blue-main: #FA1D19
+blue-dark: #C71714
+blue-light: #FF5036
 dark-grey: #312f2f
 
 text main: #777
@@ -12,7 +12,7 @@ text on black: #cccccc
 
 */
 
-* {
+*, *::before, *::after {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -33,19 +33,23 @@ i {
     margin: .5rem;
 }
 
+section {
+    height: 50vh;
+}
+
 .button, .button:link, .button:visited {
-    background-color: #5CB6EB;
+    background-color: #FA1D19;
     text-transform: uppercase;
     text-decoration: none;
     padding: 4px 8px 4px 8px;
-    color: #0a0a0a;
+    color: #fff;
     border-radius: 3px;
     margin: 3px 3px;
     transition: background-color .2s;
 }
 
 .button:hover {
-    background-color: #4884D4;
+    background-color: #C71714;
 }
 
 .subheader {
@@ -55,6 +59,7 @@ i {
     position: fixed;
     min-width: 100%;
     margin-top: -5rem;
+    z-index: 4000;
 }
 
 .subheader .container {
@@ -120,17 +125,146 @@ i {
 }
 
 .menu ul li:hover {
-    background-color: #5CB6EB;
-    color: black;
+    background-color: #FF5036;
+    color: #fff;
 }
 
 .menu-item a, .menu-item a:link, .menu-item a:visited {
     height: 100%;
     text-align: center;
     text-decoration: none;
-    color: #ccc;
+    color: #fff;
     display: flex;
     align-items: center;
     padding-left: .75rem;
     padding-right: .75rem;
+}
+
+.slide {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide__container {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    margin: auto;
+    color: #ccc;
+    padding: 2rem;
+}
+
+.headline {
+    font-size: 6rem;
+}
+
+.t-center {
+    font-size: 2rem;
+}
+
+.make-form {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-top: 10rem;
+}
+
+.headline_attention {
+    color: #312f2f;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-size: 2.3rem;
+    color:#312f2f;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+}
+
+input {
+    font-family: inherit; /* 1 */
+    font-size: inherit; /* 1 */
+    line-height: inherit; /* 1 */
+    margin: 0; /* 2 */
+  }
+
+.field__input {
+    font-family: inherit; /* 1 */
+    font-size: 2rem; /* 1 */
+    margin: 0; /* 2 */
+    color: #312f2f;
+    width: 100%;
+    padding: .5rem 1rem;
+    line-height: 1.5rem;
+    height: calc(6rem + 2px);
+    font-size: 2rem;
+    background-clip: padding-box;
+    border: 1px solid #777;
+    border-radius: 6px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.field__input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #312f2f;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.field__input::placeholder {
+    color: #777;
+    opacity: 0.4;
+}
+
+.form-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem 0;
+}
+
+.form-card__content {
+    width: 35%;
+    text-align: center;
+}
+
+.form-button, .form-button:link, .form-button:visited {
+    width: 15%;
+    height: 6rem;
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    padding: 1.4rem 0;
+    border-radius: 6px;
+}
+
+.form-button a {
+    margin: 3rem;
+
+}
+
+.asf {
+    height: 15rem;
+}
+
+.make-form__car-makes {
+    width: 68%;
+    margin: 7rem auto 7rem auto;
+    height: fit-content;
+}
+
+.make-form__background {
+    background-image: url(../images/car-makes.gif);
+    width: 55%;
+    margin: 7rem auto 7rem auto;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
