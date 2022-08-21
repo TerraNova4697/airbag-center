@@ -2,7 +2,7 @@
 
 /*
 
-blue-main: #FA1D19
+blue-main: #dc0000
 blue-dark: #C71714
 blue-light: #FF5036
 dark-grey: #312f2f
@@ -38,7 +38,7 @@ section {
 }
 
 .button, .button:link, .button:visited {
-    background-color: #FA1D19;
+    background-color: #dc0000;
     text-transform: uppercase;
     text-decoration: none;
     padding: 4px 8px 4px 8px;
@@ -113,7 +113,7 @@ section {
     list-style: none;
     display: block;
     color: #ccc;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-left: auto;
 }
 
@@ -125,7 +125,7 @@ section {
 }
 
 .menu ul li:hover {
-    background-color: #FF5036;
+    background-color: #dc0000;
     color: #fff;
 }
 
@@ -164,7 +164,7 @@ section {
 }
 
 .t-center {
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 
 .make-form {
@@ -267,4 +267,93 @@ input {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.service-section {
+    height: 80vh;
+    background-color: #312f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+    padding: 3rem 2rem;
+}
+
+.simple-card {
+    width: 25%;
+    height: fit-content;
+    margin: 3rem 2.5rem;
+    background-color: rgba(000, 000, 000, 0.3);
+    border-radius: 8px;
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #cccccc;
+}
+
+.simple-card p {
+    font-size: 1.6rem;
+}
+
+.simple-card h2 {
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.png {
+    filter: invert(9%) sepia(83%) saturate(6667%) hue-rotate(356deg) brightness(129%) contrast(115%);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #312f2f;
+    color: #ccc;
+}
+
+.footer__content {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+}
+
+.footer__content a, .footer__content a:link, .footer__content a:visited {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer__section {
+    width: 25%;
+    margin: 3rem 2.5rem;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.footer__section .footer__header {
+    width: 100%;
+    border-bottom: 2px #dc0000;
+    border-bottom-style: dotted;
+}
+
+.footer__header {
+    font-size: 2.3rem;
+
+}
+
+.footer__line {
+    font-size: 1.6rem;
+    width: 100%;
+    border-bottom: 1px #ccc;
+    border-bottom-style: dotted;
+}
+
+.footer__icon {
+    font-size: 2.3rem;
 }
