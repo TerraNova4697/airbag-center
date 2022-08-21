@@ -270,11 +270,13 @@ input {
 }
 
 .service-section {
-    height: 80vh;
+    height: fit-content;
     background-color: #312f2f;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .service-content {
