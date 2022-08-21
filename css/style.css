@@ -149,7 +149,7 @@ section {
 
 .slide__container {
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -305,8 +305,12 @@ input {
     margin-bottom: 1.5rem;
 }
 
-.png {
-    filter: invert(9%) sepia(83%) saturate(6667%) hue-rotate(356deg) brightness(129%) contrast(115%);
+.advantages {
+    height: fit-content;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10rem 0;
 }
 
 footer {
@@ -356,4 +360,34 @@ footer {
 
 .footer__icon {
     font-size: 2.3rem;
+}
+
+.workflow-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.workflow-section h2 {
+    font-size: 2.3rem;
+}
+
+.workflow-section p {
+    font-size: 1.6rem;
+}
+
+.flex2row {
+    margin: 3rem 2.5rem;
+    padding: 3rem 1rem;
+    width: 45%;
+}
+
+.workflow-section .image {
+    width: 100%;
+    display: block;
+    box-shadow: 10px 10px 5px #ccc;
+    border-radius: 4px;
 }
