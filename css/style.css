@@ -16,6 +16,9 @@ text on black: #cccccc
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Alumni Sans';
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 html {
@@ -24,7 +27,6 @@ html {
 
 body {
     font-weight: 400;
-    /* font-size: 62.5%; */
     line-height: 1.7;
     color: #777;
 }
@@ -37,10 +39,26 @@ section {
     height: 50vh;
 }
 
+span {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 6rem;
+}  
+
+p {
+    font-size: 2.5rem;
+}
+
 .button, .button:link, .button:visited {
     background-color: #dc0000;
     text-transform: uppercase;
-    text-decoration: none;
     padding: 4px 8px 4px 8px;
     color: #fff;
     border-radius: 3px;
@@ -104,6 +122,18 @@ section {
     margin-right: auto;
 }
 
+.menu-logo, .menu-logo:link, .menu-logo:visited {
+    text-decoration: none;
+    height: 100%;
+}
+
+.logo-text {
+    color: #dc0000;
+    font-size: 4rem;
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 600;
+}
+
 .menu-list {
     height: 100%;
     margin-bottom: 0;
@@ -113,7 +143,7 @@ section {
     list-style: none;
     display: block;
     color: #ccc;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     margin-left: auto;
 }
 
@@ -163,10 +193,6 @@ section {
     font-size: 6rem;
 }
 
-.t-center {
-    font-size: 2.3rem;
-}
-
 .make-form {
     text-align: center;
     margin-bottom: 3rem;
@@ -179,7 +205,7 @@ section {
 }
 
 label {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     color:#312f2f;
     padding-bottom: .75rem;
     padding-top: .75rem;
@@ -299,12 +325,15 @@ input {
 }
 
 .simple-card p {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .simple-card h2 {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #dc0000;
 }
 
 .advantages {
@@ -331,7 +360,6 @@ footer {
 }
 
 .footer__content a, .footer__content a:link, .footer__content a:visited {
-    text-decoration: none;
     color: #ccc;
 }
 
@@ -348,13 +376,8 @@ footer {
     border-bottom-style: dotted;
 }
 
-.footer__header {
-    font-size: 2.3rem;
-
-}
-
 .footer__line {
-    font-size: 1.6rem;
+    font-size: 2rem;
     width: 100%;
     border-bottom: 1px #ccc;
     border-bottom-style: dotted;
@@ -374,11 +397,14 @@ footer {
 }
 
 .workflow-section h2 {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #dc0000;
 }
 
 .workflow-section p {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .flex2row {
