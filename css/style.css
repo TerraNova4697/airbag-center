@@ -339,7 +339,7 @@ input {
     color: #dc0000;
 }
 
-.advantages {
+.flexbox-section {
     height: fit-content;
     background-color: #fff;
     display: flex;
@@ -432,7 +432,7 @@ footer {
     padding: 1px;
 }
 
-.advantages:not(:nth-last-of-type(1)) .portfolio-section {
+.flexbox-section:not(:nth-last-of-type(1)) .portfolio-section {
     border-bottom: solid 1px #000;
 }
 
