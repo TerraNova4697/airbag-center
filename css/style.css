@@ -487,7 +487,25 @@ footer {
   }
   .contacts-card h2 {
     font-size: 2.5rem;
+    margin-top: .5rem;
     margin-bottom: 1.5rem;
     font-weight: 600;
     color: #dc0000;
+  }
+
+  .contacts__headline {
+    padding: 30px;
+  }
+
+  .contacts__contacts {
+    padding: 0;
+  }
+
+  .contacts__map-section {
+    padding-top: 10px;
+  }
+
+  .contacts__map {
+    display: block;
+     width: 100%;
   }
