@@ -16,26 +16,51 @@
 <body>
 
     <header class="header"> 
-        <div class="subheader">
-            <div class="container container__subheader">
-                <div class="row h-100">
-                    <div class="col my-auto">
+
+        <div class="flexbox-section " id="container__subheader">
+                <div class="workflow-section">
+                    <div class="col my-auto subheader__item" id="subheader__item-text-first">
                         <span><i class="bi bi-geo-alt"></i> Нур-Султан, проспект Республики 84</span>
                         <span><a class="button" href="./contacts.html">Проезд</a></span>
                     </div>
-                    <div class="col my-auto col-text-center">
-                        <span><a href="tel:+7-701-123-45-67"><i class="bi bi-telephone-outbound"></i> Звоните: +7-701-123-45-67</a></span>
+                    <div class="col my-auto col-text-center subheader__item">
+                        <span><a href="tel:+7-701-123-45-67"><i class="bi bi-telephone-outbound"></i> Звоните:<br class="subheader__break">+7-701-123-45-67</a></span>
                     </div>
-                    <div class="col my-auto col-text-left">
-                        <span><i class="bi bi-clock"></i> Пн - Пт: 9:00 - 18:00</span>
+                    <div class="col my-auto col-text-left subheader__item" id="subheader__item-text-last">
+                        <span><i class="bi bi-clock"></i> Пн - Пт:<br class="subheader__break">9:00 - 18:00</span>
                     </div>
                 </div>
-                
-                
-            </div>
         </div>
 
-        <div class="menu">
+        <div class="flexbox-section" id="menu-section">
+          <div class="workflow-section menu">
+            <span><a class="menu-logo" href="./index.html"><img class="logo" src="images/logo.png" alt="logo"><span class="logo-text">Airbag-center</span></a></span>
+
+            <ul class="menu-list">
+              <li class="menu-item"><a href="./index.html">Главная</a></li>
+              <li class="menu-item"><a href="./portfolio.html">Наши работы</a></li>
+              <li class="menu-item"><a href="./services.html">Услуги</a></li>
+              <li class="menu-item"><a href="./contacts.html">Контакты</a></li> 
+            </ul>
+
+            <div class="hamburger">
+              <span class="hamburger__line"></span>
+              <span class="hamburger__line"></span>
+              <span class="hamburger__line"></span>
+            </div>
+          </div>
+        </div>
+
+        <nav class="main-section__nav nav-menu">
+          <ul class="nav-menu__list">
+            <li class="nav-menu__list-item"><a href="./index.html">Главная</a></li>
+            <li class="nav-menu__list-item"><a href="./portfolio.html">Наши работы</a></li>
+            <li class="nav-menu__list-item"><a href="./services.html">Услуги</a></li>
+            <li class="nav-menu__list-item"><a href="./contacts.html">Контакты</a></li> 
+          </ul>
+        </nav>
+
+        <!-- <div class="menu">
             <div class="container h-100">
                 <span><a class="menu-logo" href="./index.html"><img class="logo" src="images/logo.png" alt="logo"><span class="logo-text">Airbag-center</span></a></span>
                 <ul class="menu-list">
@@ -45,7 +70,7 @@
                     <li class="menu-item"><a href="./contacts.html">Контакты</a></li> 
                 </ul>
             </div>
-        </div>
+        </div> -->
     </header>
 
     <div class="flexbox-section">
@@ -100,7 +125,7 @@
   
       <script src="js/modules/splide.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  
+      <script src="js/modules/hamburger.js"></script>
   
   </body>
 </html>
