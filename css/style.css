@@ -127,9 +127,72 @@ p {
     display: none;
 }
 
+@media (max-width: 1800px) {
+    #workflow-section_with-image {
+        width: 75% !important;
+    }
+}
+
 @media (max-width: 1681px) {
     .subheader__break {
         display: inline;
+    }
+}
+
+@media (max-width: 1615px) {
+    #workflow-section_with-image {
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 1540px) {
+    #workflow-section_with-image {
+        width: 85% !important;
+    }
+}
+
+@media (max-width: 1500px) {
+    .slide__container {
+        width: 1200px !important;
+    }
+    .flex2row .content{
+        width: 100% !important;
+    }
+    .workflow-section .img {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 1450px) {
+    #workflow-section_with-image {
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 1400px) {
+    .service-section .service-content, .flexbox-section .workflow-section {
+        width: 75% !important;
+    }
+}
+
+@media (max-width: 1331px) {
+    #workflow-section_with-image {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1300px) {
+    .slide__container {
+        width: 900px !important;
+    }
+    .service-section .service-content, .flexbox-section .workflow-section {
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .service-section .service-content, .flexbox-section .workflow-section {
+        width: 85% !important;
     }
 }
 
@@ -137,11 +200,33 @@ p {
     .workflow-section {
         width: 80% !important;
     }
+    .slide__container {
+        width: 700px !important;
+    }
+    .service-section .service-content, .flexbox-section .workflow-section {
+        width: 90% !important;
+    }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1063px) {
     .workflow-section {
         width: 85% !important;
+    }
+    .service-section, #workflow {
+        padding-top: 8rem !important;
+        padding-bottom: 8rem !important;
+    }
+    #workflow-section_with-image {
+        display: none !important;
+    }
+    #workflow-section_with-image_sm {
+        display: flex !important;
+    }
+    .workflow-section .content {
+        width: 80% !important;
+    }
+    .workflow-section .flex2row_image {
+        width: 50% !important
     }
 }
 
@@ -154,17 +239,31 @@ p {
     .workflow-section {
         width: 90% !important;
     }
+    .service-section .service-content, .flexbox-section .workflow-section {
+        width: 95% !important;
+    }
 }
 
 @media (max-width: 940px) {
     .workflow-section {
         width: 95% !important;
     }
+    .make-form__car-makes {
+        width: 75% !important;
+        margin: 5rem auto !important;
+    }
+    .service-section .service-content, .flexbox-section .workflow-section {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 881px) {
     .workflow-section {
         width: 100% !important;
+    }
+    .service-section, #workflow {
+        padding-top: 6rem !important;
+        padding-bottom: 6rem !important;
     }
 }
 
@@ -203,6 +302,12 @@ p {
         display: block;
         left: 0;
     }
+    .slide__container {
+        width: 500px !important;
+    }
+    .service-card {
+        width: 40% !important;
+    }
 }
 
 @media (max-width: 804px) {
@@ -217,6 +322,79 @@ p {
     #subheader__item-text-first, #subheader__item-text-last {
         text-align: center;
     }
+    .make-form__car-makes {
+        width: 80% !important;
+        margin: 4rem auto !important;
+    }
+}
+
+@media (max-width: 760px) {   
+    .service-section, #workflow {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .form-button {
+        width: 20% !important;
+    }
+    .make-form__car-makes {
+        width: 95% !important;
+        margin: 5rem auto !important;
+    }
+    .service-section, #workflow {
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+    }
+    .workflow-section .content {
+        width: 90% !important;
+    }
+    .workflow-section .flex2row_image {
+        width: 65% !important
+    }
+}
+
+@media (max-width: 585px) {
+    .slide__container{
+        width: 400px !important;
+    }
+    .slide__container h2, form h2 {
+        font-size: 4rem !important;
+    }
+    .slide__container p, label {
+        font-size: 2rem !important;
+    }
+    .service-card {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 510px) {
+    
+    .make-form__car-makes {
+        width: 95% !important;
+        margin: 3rem auto !important;
+    }
+}
+
+@media (max-width: 485px) {
+    .slide__container{
+        width: 300px !important;
+    }
+    .form-button {
+        width: 25% !important;
+    }
+    .workflow-section .content {
+        width: 95% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .workflow-section .flex2row_image {
+        width: 70% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
 }
 
 @media (max-width: 440px) {
@@ -228,6 +406,10 @@ p {
     }
     .menu {
         height: fit-content !important;
+    }
+    .service-section, #workflow {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
     }
 }
 
@@ -331,16 +513,21 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .slide__container {
+    width: 1400px;
+    height: fit-content;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     background-color: rgba(0,0,0,0.7);
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     color: #ccc;
     padding: 2rem;
 }
@@ -553,6 +740,10 @@ footer {
     text-align: center;
 }
 
+#workflow-section_with-image_sm {
+    display: none;
+}
+
 .workflow-section h2 {
     font-size: 2.5rem;
     font-weight: 600;
@@ -565,8 +756,8 @@ footer {
 }
 
 .flex2row {
-    margin: 3rem 2.5rem;
-    padding: 3rem 1rem;
+    margin: 1.5rem 2.5rem;
+    padding: 1rem 1rem;
     width: 45%;
 }
 
